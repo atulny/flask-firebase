@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 
 app = Flask(__name__)
-app.config.from_pyfile('config.cfg', silent=True) # instance-folders configuration
+app.config.from_pyfile('appconfig.cfg', silent=True) # instance-folders configuration
 
 db = SQLAlchemy(app)
 auth = FirebaseAuth(app)
