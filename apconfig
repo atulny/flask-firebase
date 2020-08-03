@@ -1,0 +1,3 @@
+FIREBASE_API_KEY =  "AIzaSyACv8Ewt7pd5MlmULVSm2wyjkaIa-Aufi0"
+FIREBASE_PROJECT_ID = "jsonvw"
+FIREBASE_AUTH_SIGN_IN_OPTIONS = "email,google,fasebook"
